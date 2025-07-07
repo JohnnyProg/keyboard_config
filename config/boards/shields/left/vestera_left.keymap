@@ -11,11 +11,11 @@
   // |SPACE |BSPC |LEFT |RIGHT|
       bindings = <
         &kp LCTL     &kp 1     &kp 2     &kp 3     &kp 4     &kp 5     &kp LBRC      // Row 0 (numbers)
-        &kp LSFT     &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y      // Row 1 (letters)
-        &kp LALT     &kp A     &kp S     &kp D     &kp F     &kp G     &kp H      // Row 2 (letters)
-        &kp LGUI     &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N      // Row 3 (letters)
-        &kp ESC      &kp TAB   &kp LSFT  &kp LCTRL &kp ENTER                     // Row 4 (5 keys only)
-        &kp SPACE    &kp BSPC  &kp LEFT  &kp RIGHT                              // Row 5 (thumb cluster)
+        &kp LSFT     &kp Q     &kp W     &kp E     &kp R     &kp T     &kp LBKT      // Row 1 (letters)
+        &kp ESC     &kp A     &kp S     &kp D     &kp F     &kp G     &kp LPAR      // Row 2 (letters)
+        &kp LGUI     &kp Z     &kp X     &kp C     &kp V     &kp B                   // Row 3 (letters)
+        &kp LALT      &kp TAB   &kp LSFT  &kp LCTRL &kp ENTER                         // Row 4 (5 keys only)
+        &kp SPACE    &kp BSPC  &kp LEFT  &kp RIGHT                                   // Row 5 (thumb cluster)
       >;
     };
   };
