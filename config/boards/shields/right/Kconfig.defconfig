@@ -1,6 +1,0 @@
-if SHIELD_VESTERA_RIGHT
-
-config ZMK_KEYBOARD_NAME
-  default "vestera_right"
-
-endif
