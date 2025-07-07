@@ -13,12 +13,12 @@
       // | ESC  | TAB |SHIFT|CTRL |ENTER|
       // |SPACE |BSPC |LEFT |RIGHT|
       bindings = <
-        &kp LCTL     &kp 1     &kp 2     &kp 3     &kp 4     &kp 5     &kp 6      // Row 0 (numbers)
-        &kp LSFT     &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y      // Row 1 (letters)
-        &kp ESC     &kp A     &kp S     &kp D     &kp F     &kp G     &kp H      // Row 2 (letters)
-        &kp LGUI     &kp Z     &kp X     &kp C     &kp V     &kp B                   // Row 3 (letters)
-        &kp LALT      &kp TAB   &kp LSFT  &kp LCTRL &kp ENTER                         // Row 4 (5 keys only)
-        &kp SPACE    &kp BSPC  &mo 2  &mo 1                                   // Row 5 (thumb cluster)
+        &kp M     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6      // Row 0 (numbers)
+        &kp N     &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y      // Row 1 (letters)
+        &kp K     &kp A     &kp S     &kp D     &kp F     &kp G     &kp H      // Row 2 (letters)
+        &kp J     &kp Z     &kp X     &kp C     &kp V     &kp B                   // Row 3 (letters)
+        &kp H      &kp L   &kp P  &kp O &kp U                         // Row 4 (5 keys only)
+        &kp SPACE    &kp O  &mo 2  &mo 1                                   // Row 5 (thumb cluster)
       >;
     };
     lower_layer {
